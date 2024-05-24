@@ -8,4 +8,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install
-        run: python hello.py
+        run: cat python hello.py
