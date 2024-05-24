@@ -2,7 +2,7 @@ import datetime
 
 def main():
     with open("hello.txt", "w") as f:
-        f.write(datetime.datetime.now().strftime() + ": Hello")
+        f.write(datetime.datetime.now().strftime("%d/%m/%Y, %H:%M:%S") + ": Hello")
         f.close()
     
 if __name__ == "__main__":
