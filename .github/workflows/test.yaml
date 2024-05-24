@@ -7,5 +7,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install
-        run: cat python hello.py
+      - name: execute
+        run: python hello.py
+      - name: print
+        run: cat hello.txt
